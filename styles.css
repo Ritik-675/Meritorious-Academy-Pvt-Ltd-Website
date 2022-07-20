@@ -146,9 +146,9 @@
     font-size: 1.6rem;
   }
 
-  #navbar__logo {
+  /* #navbar__logo {
     padding-left: 25px;
-  }
+  } */
 
   .navbar__toggle .bar {
     width: 25px;
@@ -802,4 +802,12 @@ animation: 25s sliding ease infinite;
   -moz-text-fill-color: transparent;
   margin-bottom: 5rem;
   font-size: 2.5rem;
+}
+@media screen and (max-width: 450px) {
+  body{
+    width: 450px;
+  }
+  #usef{
+    /* margin: 0 auto; */
+  }
 }
